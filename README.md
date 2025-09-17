@@ -19,4 +19,8 @@ Proyek ini bertujuan untuk menganalisis sentimen masyarakat terhadap isu tertent
 ```bash
 git clone <repository-url>
 cd <project-folder>
-```
+
+python -m venv .venv
+source .venv/bin/activate    # Linux/macOS
+.venv\Scripts\activate       # Windows
+pip install -r requirements.txt
